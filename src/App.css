@@ -18,6 +18,11 @@
   color: white;
 }
 
+.Description {
+    display: block;
+    margin: 10px, 36px !important;
+}
+
 .App-link {
   color: #61dafb;
 }

@@ -1,25 +1,17 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import Inputs from './Inputs';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div className="App" className="App-header">
+          <h2>Don't miss out on open source!</h2>
+          <h4>Open source projects can feel hard to get involved with. Especially when
+          all the good issues are picked up so fast! Don't miss another opportunity
+          to contribute again. Subscribe to notifications of new issues on your
+          favorite project below!</h4>
+          <Inputs/>
       </div>
     );
   }
